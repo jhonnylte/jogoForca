@@ -1,2 +1,1 @@
-# jogoForca
-Joguinho feito em Python
+# Joguinhos feitos em Python
