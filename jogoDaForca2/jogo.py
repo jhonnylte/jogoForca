@@ -1,26 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[11]:
-
-
-get_ipython().run_line_magic('run', 'banco.ipynb # Importa o banco de palavras e a função de pegar uma aleatória')
-
-
-# In[12]:
-
-
-palavraAleatoria()
-
-
-# In[13]:
-
-
+from banco import palavraAleatoria
 from IPython.display import clear_output
-
-
-# In[14]:
-
 
 niveisForca = ['________\n|      |\n|\n|\n|\n|', 
                '________\n|      |\n|      O\n|\n|\n|', 
@@ -30,9 +9,6 @@ niveisForca = ['________\n|      |\n|\n|\n|\n|',
                '________\n|      |\n|      O\n|     /|\ \n|     /  \n|',
                '________\n|      |\n|      O\n|     /|\ \n|     / \ \n|'
               ]
-
-
-# In[26]:
 
 
 class Forca:
@@ -91,15 +67,4 @@ class Forca:
             print('Você acertou!')
 
 
-# In[27]:
-
-
-a = Forca(palavraAleatoria())
-a.jogar()
-
-
-# In[ ]:
-
-
-
-
+Forca(palavraAleatoria()).jogar()
