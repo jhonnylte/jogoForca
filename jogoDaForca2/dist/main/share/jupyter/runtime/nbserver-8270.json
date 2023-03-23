@@ -1,0 +1,12 @@
+{
+  "base_url": "/",
+  "hostname": "localhost",
+  "notebook_dir": "/home/jhonny/Documentos/GitHub/jogos",
+  "password": false,
+  "pid": 8270,
+  "port": 8888,
+  "secure": false,
+  "sock": "",
+  "token": "8fd6238e035bf398bdfb14ae60063776f911a5b7f9dbcf46",
+  "url": "http://localhost:8888/"
+}
